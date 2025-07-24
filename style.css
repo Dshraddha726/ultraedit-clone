@@ -1,0 +1,111 @@
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .right ul {
+        display: flex;
+        gap: 20px;
+      }
+      .right ul li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .logo img {
+        height: 51px;
+      }
+      .section {
+        font-family: sans-serif;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .section span {
+        font-size: 50px;
+      }
+      .sectionspan img {
+        font-size: 60px;
+      }
+      p {
+        font-size: 24px;
+      }
+      .btn {
+        font-weight: bolder;
+        padding: 20px;
+        font-size: 15px;
+        background-color: #09a6bd;
+        border-radius: 10px;
+        color: white;
+        margin:12px 0 ;
+        cursor: pointer;
+       
+      }
+      .btn a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      .small {
+        font-size: 17px;
+      }
+
+      .section2 {
+        display: grid;
+        width: 55vw;
+        margin: auto;
+        padding: 20px;
+      }
+      .green {
+        background-color: #5cb85c;
+      }
+      .lang {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 48px;
+      }
+      .lang + .small {
+      margin-top: -35px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+      .item {
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        padding: 41px;
+        font-family: sans-serif;
+        text-align: center;
+       
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+      }
+      .download :nth-child(2) {
+        font-size: 25px;
+      }
+      .download {
+        padding: 12px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      @media screen and (max-width:800px){
+        .grid{ display: grid;
+        grid-template-columns: 1fr;
+        }
+      }
+      .lang .small{
+        font-size: 12px;
+      }
